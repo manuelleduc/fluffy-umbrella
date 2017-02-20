@@ -10,3 +10,11 @@ This POC evaluate this AQL expression :
 **self** refer to the first element of **model.xmi**
 
 **foobar()** is defined in **dummy.ecore** and implemented in **implem.xmi**
+
+## Project initialization
+
+In order to makes the project compile, you have to build the antlr4 files.
+
+```bash
+$ antlr4 ... #TODO
+```
